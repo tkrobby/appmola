@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,,,,2020-02-03 22:17:51,2020-02-03 22:20:04,2m - 13.240s,INCOMPLETE
+,,,,,,,
+Test Cases/live,,,,2020-02-03 22:17:51,2020-02-03 22:18:30,38.638s,PASSED
+"runFeatureFile(""Include/features/live.feature"")",,,,2020-02-03 22:17:52,2020-02-03 22:18:30,38.509s,PASSED
+,,,,,,,
+Test Cases/videoPlayer,,,,2020-02-03 22:18:30,2020-02-03 22:20:04,1m - 34.429s,PASSED
+"runFeatureFile(""Include/features/videoPlayer.feature"")",,,,2020-02-03 22:18:30,2020-02-03 22:20:04,1m - 34.367s,PASSED

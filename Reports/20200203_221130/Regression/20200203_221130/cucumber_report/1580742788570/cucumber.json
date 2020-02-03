@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Live button can be click",
+        "description": "",
+        "id": "video-player;live-button-can-be-click",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24939055134,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User want to button live",
+            "match": {
+              "location": "scriptLive.userWanttoButtonLive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4883064965,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click button live",
+            "match": {
+              "location": "scriptLive.userClickButtonLive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2988551744,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User direct to live page",
+            "match": {
+              "location": "scriptLive.userDirecttoLiveButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@live"
+          },
+          {
+            "name": "@player"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Type live can be click",
+        "description": "",
+        "id": "video-player;type-live-can-be-click",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001078210,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User want to click button type live",
+            "match": {
+              "location": "scriptLive.userWantToClickButtonTypeLive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 927731682,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click button type live",
+            "match": {
+              "location": "scriptLive.clickButtonLive()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2381339415,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User can be click type live",
+            "match": {
+              "location": "scriptLive.canBeClickTypeLive()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@live"
+          }
+        ]
+      }
+    ],
+    "name": "Video player",
+    "description": "",
+    "id": "video-player",
+    "keyword": "Feature",
+    "uri": "/Users/robby.kurniawan30/Documents/robby/learn/appmola/Include/features/live.feature",
+    "tags": [
+      {
+        "name": "@live",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

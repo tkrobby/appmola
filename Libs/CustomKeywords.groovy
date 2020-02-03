@@ -62,6 +62,14 @@ def static "com.katalon.plugin.keyword.connection.DatabaseKeywords.getGlobalConn
     (new com.katalon.plugin.keyword.connection.DatabaseKeywords()).getGlobalConnection()
 }
 
+def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingGlobalConnection"(
+    	String fileName	
+     , 	String query	) {
+    (new com.katalon.plugin.keyword.generator.DataFileKeywords()).createUsingGlobalConnection(
+        	fileName
+         , 	query)
+}
+
 def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingInternalConnection"(
     	String fileName	
      , 	String query	
@@ -82,12 +90,20 @@ def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingInt
          , 	dbName)
 }
 
-def static "com.katalon.plugin.keyword.generator.DataFileKeywords.createUsingGlobalConnection"(
-    	String fileName	
-     , 	String query	) {
-    (new com.katalon.plugin.keyword.generator.DataFileKeywords()).createUsingGlobalConnection(
-        	fileName
-         , 	query)
+def static "swipe.customSwipe.buttonToTop"() {
+    (new swipe.customSwipe()).buttonToTop()
+}
+
+def static "swipe.customSwipe.topToButton"() {
+    (new swipe.customSwipe()).topToButton()
+}
+
+def static "swipe.customSwipe.swipeRighToLeft"() {
+    (new swipe.customSwipe()).swipeRighToLeft()
+}
+
+def static "swipe.customSwipe.swipeLeftToRigh"() {
+    (new swipe.customSwipe()).swipeLeftToRigh()
 }
 
 def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getRowCount"(
@@ -116,10 +132,12 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.isEmptyResul
         	rs)
 }
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
-    	ResultSet rs	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
-        	rs)
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+    	ResultSet rs	
+     , 	int columnIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+        	rs
+         , 	columnIndex)
 }
 
 def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
@@ -130,30 +148,14 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellV
          , 	columnName)
 }
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListCellValue"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
     	ResultSet rs	
-     , 	int columnIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListCellValue(
+     , 	int rowIndex	
+     , 	String columnName	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
         	rs
-         , 	columnIndex)
-}
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
-    	ResultSet rs	
-     , 	int fromRowIndex	
-     , 	int toRowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
-        	rs
-         , 	fromRowIndex
-         , 	toRowIndex)
-}
-
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
-    	ResultSet rs	
-     , 	int rowIndex	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
-        	rs
-         , 	rowIndex)
+         , 	rowIndex
+         , 	columnName)
 }
 
 def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
@@ -166,12 +168,26 @@ def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCel
          , 	colIndex)
 }
 
-def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleCellValue"(
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getSingleRowValue"(
     	ResultSet rs	
-     , 	int rowIndex	
-     , 	String columnName	) {
-    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleCellValue(
+     , 	int rowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getSingleRowValue(
         	rs
-         , 	rowIndex
-         , 	columnName)
+         , 	rowIndex)
+}
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.getListRowValue"(
+    	ResultSet rs	
+     , 	int fromRowIndex	
+     , 	int toRowIndex	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).getListRowValue(
+        	rs
+         , 	fromRowIndex
+         , 	toRowIndex)
+}
+
+def static "com.katalon.plugin.keyword.connection.ResultSetKeywords.resultSetToArrayList"(
+    	ResultSet rs	) {
+    (new com.katalon.plugin.keyword.connection.ResultSetKeywords()).resultSetToArrayList(
+        	rs)
 }

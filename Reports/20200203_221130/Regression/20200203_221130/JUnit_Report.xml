@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Regression" time="133" tests="2" failures="0" errors="0">
+    <testsuite name="Regression" tests="2" failures="0" errors="0" time="133" timestamp="2020-02-03 22:11:32" hostname="robby.kurniawan30 - 192.168.1.22" id="Test Suites/Regression">
+        <properties>
+            <property name="deviceName" value="Xiaomi Redmi 5 Plus (Android 8.1.0)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221130/Regression/20200203_221130"/>
+            <property name="logFiles" value="/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221130/Regression/20200203_221130/execution0.log, /Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221130/Regression/20200203_221130/appium.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="robby.kurniawan30 - 192.168.1.22"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+            <property name="katalonVersion" value="6.3.2.4"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.15.1"/>
+            <property name="deviceModel" value="Redmi 5 Plus"/>
+            <property name="hostAddress" value="192.168.1.22"/>
+            <property name="deviceManufacturer" value="Xiaomi"/>
+            <property name="deviceId" value="307d3e3c0804"/>
+            <property name="deviceName" value="Xiaomi Redmi 5 Plus (Android 8.1.0)"/>
+            <property name="deviceOSVersion" value="8.1.0"/>
+        </properties>
+        <testcase name="Test Cases/videoPlayer" classname="Test Cases/videoPlayer" status="PASSED">
+            <system-out>2020-02-03 22:11:32 - [TEST_CASE][PASSED] - Test Cases/videoPlayer: Test Cases/videoPlayer
+
+2020-02-03 22:11:32 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/videoPlayer.feature"): Feature file: 'Include/features/videoPlayer.feature' was passed
+
+2020-02-03 22:11:32 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/videoPlayer.feature' and extract report to folder: '/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221130/Regression/20200203_221130/cucumber_report/1580742692682'...
+
+2020-02-03 22:11:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Play movie on home page: SCENARIO Play movie on home page
+
+2020-02-03 22:11:32 - [TEST_STEP][PASSED] - user want to video player page: user want to video player page
+
+2020-02-03 22:11:34 - [MESSAGE][INFO] - Appium server started on port 64,164
+
+2020-02-03 22:11:55 - [MESSAGE][PASSED] - Started app at: '/Users/robby.kurniawan30/Documents/robby/learn/appmola/APK/Mola TV.apk'
+
+2020-02-03 22:11:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:11:59 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:11:59 - [MESSAGE][PASSED] - user want to video player page
+
+2020-02-03 22:11:59 - [TEST_STEP][PASSED] - scroll until movie: scroll until movie
+
+2020-02-03 22:12:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-03 22:12:04 - [MESSAGE][PASSED] - Current device physical height is 2030
+
+2020-02-03 22:12:04 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2020-02-03 22:12:05 - [MESSAGE][PASSED] - Swiped from 540,1,421 to 540,609
+
+2020-02-03 22:12:05 - [MESSAGE][PASSED] - scroll until movie
+
+2020-02-03 22:12:05 - [TEST_STEP][PASSED] - select one video: select one video
+
+2020-02-03 22:12:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:12:06 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:12:06 - [MESSAGE][PASSED] - select one video
+
+2020-02-03 22:12:06 - [TEST_STEP][PASSED] - user direct video player page: user direct video player page
+
+2020-02-03 22:12:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:12:08 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:12:08 - [MESSAGE][PASSED] - user direct video player page
+
+2020-02-03 22:12:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Play video player: SCENARIO Play video player
+
+2020-02-03 22:12:08 - [TEST_STEP][PASSED] - user click play: user click play
+
+2020-02-03 22:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:12:08 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:12:08 - [MESSAGE][PASSED] - user click play
+
+2020-02-03 22:12:08 - [TEST_STEP][PASSED] - video can be play: video can be play
+
+2020-02-03 22:13:08 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2020-02-03 22:13:08 - [MESSAGE][PASSED] - video can be play
+
+2020-02-03 22:13:08 - [MESSAGE][PASSED] - Feature file: 'Include/features/videoPlayer.feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/live" classname="Test Cases/live" status="PASSED">
+            <system-out>2020-02-03 22:13:08 - [TEST_CASE][PASSED] - Test Cases/live: Test Cases/live
+
+2020-02-03 22:13:08 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/live.feature"): Feature file: 'Include/features/live.feature' was passed
+
+2020-02-03 22:13:08 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/live.feature' and extract report to folder: '/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221130/Regression/20200203_221130/cucumber_report/1580742788570'...
+
+2020-02-03 22:13:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Live button can be click: SCENARIO Live button can be click
+
+2020-02-03 22:13:08 - [TEST_STEP][PASSED] - User want to button live: User want to button live
+
+2020-02-03 22:13:29 - [MESSAGE][PASSED] - Started app at: '/Users/robby.kurniawan30/Documents/robby/learn/appmola/APK/Mola TV.apk'
+
+2020-02-03 22:13:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:33 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:13:33 - [MESSAGE][PASSED] - User want to button live
+
+2020-02-03 22:13:33 - [TEST_STEP][PASSED] - User click button live: User click button live
+
+2020-02-03 22:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:36 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:38 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:13:38 - [MESSAGE][PASSED] - User click button live
+
+2020-02-03 22:13:38 - [TEST_STEP][PASSED] - User direct to live page: User direct to live page
+
+2020-02-03 22:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:40 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:41 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:13:41 - [MESSAGE][PASSED] - User direct to live page
+
+2020-02-03 22:13:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Type live can be click: SCENARIO Type live can be click
+
+2020-02-03 22:13:41 - [TEST_STEP][PASSED] - User want to click button type live: User want to click button type live
+
+2020-02-03 22:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:42 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:13:42 - [MESSAGE][PASSED] - User want to click button type live
+
+2020-02-03 22:13:42 - [TEST_STEP][PASSED] - User click button type live: User click button type live
+
+2020-02-03 22:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:43 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:13:43 - [MESSAGE][PASSED] - User click button type live
+
+2020-02-03 22:13:43 - [TEST_STEP][PASSED] - User can be click type live: User can be click type live
+
+2020-02-03 22:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:44 - [MESSAGE][PASSED] - Element '' is exist
+
+2020-02-03 22:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-02-03 22:13:45 - [MESSAGE][PASSED] - Tapped on element ''
+
+2020-02-03 22:13:45 - [MESSAGE][PASSED] - User can be click type live
+
+2020-02-03 22:13:45 - [MESSAGE][PASSED] - Feature file: 'Include/features/live.feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-02-03 22:11:32 - [TEST_SUITE][INCOMPLETE] - Regression: null</system-out>
+        <system-err>2020-02-03 22:11:32 - [TEST_SUITE][INCOMPLETE] - Regression: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Production</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/robby.kurniawan30/Documents/robby/learn/appmola/APK/Mola TV.apk'</initValue>
+      <name>APK</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="37.126457">
+<testcase classname="Video player" name="Live button can be click" time="32.814166">
+<system-out><![CDATA[Given User want to button live..............................................passed
+When User click button live.................................................passed
+Then User direct to live page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Video player" name="Type live can be click" time="4.312291">
+<system-out><![CDATA[Given User want to click button type live...................................passed
+When User click button type live............................................passed
+Then User can be click type live............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

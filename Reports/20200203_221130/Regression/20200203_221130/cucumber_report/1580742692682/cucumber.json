@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Play movie on home page",
+        "description": "",
+        "id": "video-palyer-on-mola-tv;play-movie-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26501671827,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user want to video player page",
+            "match": {
+              "location": "video.userWantToVidepPlayerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6394878157,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "scroll until movie",
+            "match": {
+              "location": "video.scrollUntilMovie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182503986,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select one video",
+            "match": {
+              "location": "video.selectOneVideo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050458812,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user direct video player page",
+            "match": {
+              "location": "video.userDirectToVideoPlayer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@live"
+          },
+          {
+            "name": "@live"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Play video player",
+        "description": "",
+        "id": "video-palyer-on-mola-tv;play-video-player",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 407354209,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click play",
+            "match": {
+              "location": "video.userWantPlayMovie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60006483213,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "video can be play",
+            "match": {
+              "location": "video.videoCanBePlay()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@live"
+          }
+        ]
+      }
+    ],
+    "name": "Video Palyer on Mola TV",
+    "description": "",
+    "id": "video-palyer-on-mola-tv",
+    "keyword": "Feature",
+    "uri": "/Users/robby.kurniawan30/Documents/robby/learn/appmola/Include/features/videoPlayer.feature",
+    "tags": [
+      {
+        "name": "@live",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

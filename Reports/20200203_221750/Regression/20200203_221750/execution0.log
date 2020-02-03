@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071722</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Regression</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Regression</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Regression</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071735</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = robby.kurniawan30 - 192.168.1.22</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">robby.kurniawan30 - 192.168.1.22</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071736</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071736</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.22</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.22</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071737</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.2.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.2.4</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071740</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071745</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071745</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:51</date>
+  <millis>1580743071892</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/live</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/live</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/live</property>
+  <property name="source">\\Users\\robby.kurniawan30\\Documents\\robby\\learn\\appmola\\Test Cases\\live.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:52</date>
+  <millis>1580743072021</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/live.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-03T22:17:52</date>
+  <millis>1580743072096</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/live.feature&amp;apos; and extract report to folder: &amp;apos;/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221750/Regression/20200203_221750/cucumber_report/1580743072092&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:52</date>
+  <millis>1580743072360</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Live button can be click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:52</date>
+  <millis>1580743072362</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User want to button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:17:54</date>
+  <millis>1580743074281</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 49,755</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094646</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.15.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="appiumVersion">1.15.1</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094647</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.15.1\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094658</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 307d3e3c0804</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceId">307d3e3c0804</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094659</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi Redmi 5 Plus (Android 8.1.0)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi 5 Plus (Android 8.1.0)</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094659</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Redmi 5 Plus</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceModel">Redmi 5 Plus</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094659</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094659</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094660</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 8.1.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOSVersion">8.1.0</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094662</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/robby.kurniawan30/Documents/robby/learn/appmola/APK/Mola TV.apk&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:14</date>
+  <millis>1580743094677</millis>
+  <sequence>30</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:17</date>
+  <millis>1580743097697</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:17</date>
+  <millis>1580743097700</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User want to button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:17</date>
+  <millis>1580743097700</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User want to button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:17</date>
+  <millis>1580743097701</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User click button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:17</date>
+  <millis>1580743097706</millis>
+  <sequence>37</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:20</date>
+  <millis>1580743100733</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:20</date>
+  <millis>1580743100735</millis>
+  <sequence>41</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:22</date>
+  <millis>1580743102568</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:22</date>
+  <millis>1580743102569</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User click button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:22</date>
+  <millis>1580743102569</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User click button live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:22</date>
+  <millis>1580743102569</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User direct to live page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:22</date>
+  <millis>1580743102571</millis>
+  <sequence>48</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:24</date>
+  <millis>1580743104727</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:24</date>
+  <millis>1580743104729</millis>
+  <sequence>52</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105804</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105805</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User direct to live page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105805</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User direct to live page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105807</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Live button can be click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105807</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Live button can be click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105808</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Type live can be click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105808</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User want to click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:25</date>
+  <millis>1580743105810</millis>
+  <sequence>62</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:26</date>
+  <millis>1580743106776</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:26</date>
+  <millis>1580743106776</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User want to click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:26</date>
+  <millis>1580743106776</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User want to click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:26</date>
+  <millis>1580743106777</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:26</date>
+  <millis>1580743106778</millis>
+  <sequence>69</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:27</date>
+  <millis>1580743107892</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:27</date>
+  <millis>1580743107892</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:27</date>
+  <millis>1580743107893</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User click button type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:27</date>
+  <millis>1580743107893</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User can be click type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:27</date>
+  <millis>1580743107895</millis>
+  <sequence>76</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:28</date>
+  <millis>1580743108926</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:28</date>
+  <millis>1580743108928</millis>
+  <sequence>80</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110144</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110496</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110497</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User can be click type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110497</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User can be click type live</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110497</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Type live can be click</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110498</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Type live can be click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110530</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/live.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110530</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/live.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110530</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/live</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110530</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/live</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110533</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/videoPlayer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/videoPlayer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/videoPlayer</property>
+  <property name="source">\\Users\\robby.kurniawan30\\Documents\\robby\\learn\\appmola\\Test Cases\\videoPlayer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110595</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/videoPlayer.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110595</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/videoPlayer.feature&amp;apos; and extract report to folder: &amp;apos;/Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221750/Regression/20200203_221750/cucumber_report/1580743110595&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110621</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Play movie on home page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:30</date>
+  <millis>1580743110621</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user want to video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:32</date>
+  <millis>1580743112039</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 50,060</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131772</millis>
+  <sequence>100</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.15.1</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="appiumVersion">1.15.1</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131773</millis>
+  <sequence>101</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.15.1\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131782</millis>
+  <sequence>102</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 307d3e3c0804</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceId">307d3e3c0804</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131782</millis>
+  <sequence>103</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi Redmi 5 Plus (Android 8.1.0)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi 5 Plus (Android 8.1.0)</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131782</millis>
+  <sequence>104</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Redmi 5 Plus</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceModel">Redmi 5 Plus</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131783</millis>
+  <sequence>105</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131783</millis>
+  <sequence>106</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131783</millis>
+  <sequence>107</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 8.1.0</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="deviceOSVersion">8.1.0</property>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131784</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/robby.kurniawan30/Documents/robby/learn/appmola/APK/Mola TV.apk&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:51</date>
+  <millis>1580743131786</millis>
+  <sequence>111</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:54</date>
+  <millis>1580743134465</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:54</date>
+  <millis>1580743134466</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user want to video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:54</date>
+  <millis>1580743134466</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user want to video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:54</date>
+  <millis>1580743134467</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scroll until movie</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:59</date>
+  <millis>1580743139479</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:59</date>
+  <millis>1580743139659</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current device physical height is 2030</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:18:59</date>
+  <millis>1580743139748</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current device physical width is 1080</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:00</date>
+  <millis>1580743140868</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Swiped from 540,1,421 to 540,609</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:00</date>
+  <millis>1580743140873</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>scroll until movie</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:00</date>
+  <millis>1580743140874</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : scroll until movie</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:00</date>
+  <millis>1580743140874</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : select one video</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:00</date>
+  <millis>1580743140875</millis>
+  <sequence>126</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:02</date>
+  <millis>1580743142097</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:02</date>
+  <millis>1580743142097</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>select one video</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:02</date>
+  <millis>1580743142098</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : select one video</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:02</date>
+  <millis>1580743142098</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user direct video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:02</date>
+  <millis>1580743142099</millis>
+  <sequence>133</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143169</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;&amp;apos; is exist</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143170</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user direct video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143170</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user direct video player page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143170</millis>
+  <sequence>137</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Play movie on home page</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143170</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Play movie on home page</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143171</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Play video player</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143171</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : user click play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:03</date>
+  <millis>1580743143173</millis>
+  <sequence>143</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:04</date>
+  <millis>1580743144802</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:04</date>
+  <millis>1580743144803</millis>
+  <sequence>145</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>user click play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:04</date>
+  <millis>1580743144803</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : user click play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:19:04</date>
+  <millis>1580743144803</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : video can be play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204808</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 60 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204956</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204957</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>video can be play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204957</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : video can be play</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204957</millis>
+  <sequence>153</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Play video player</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204957</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Play video player</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204961</millis>
+  <sequence>155</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/videoPlayer.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204962</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/videoPlayer.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204962</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/videoPlayer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204962</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/videoPlayer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204962</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:04</date>
+  <millis>1580743204962</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205130</millis>
+  <sequence>412</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221750/Regression/20200203_221750...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205138</millis>
+  <sequence>413</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205138</millis>
+  <sequence>414</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: /Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221750/Regression/20200203_221750...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205145</millis>
+  <sequence>415</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205146</millis>
+  <sequence>416</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: /Users/robby.kurniawan30/Documents/robby/learn/appmola/Reports/20200203_221750/Regression/20200203_221750...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205217</millis>
+  <sequence>417</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205217</millis>
+  <sequence>419</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-03T22:20:05</date>
+  <millis>1580743205220</millis>
+  <sequence>420</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Regression</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

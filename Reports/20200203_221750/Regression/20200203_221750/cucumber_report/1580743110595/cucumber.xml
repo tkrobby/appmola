@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="94.335295">
+<testcase classname="Video Palyer on Mola TV" name="Play movie on home page" time="32.550006">
+<system-out><![CDATA[Given user want to video player page........................................passed
+When scroll until movie.....................................................passed
+And select one video........................................................passed
+Then user direct video player page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Video Palyer on Mola TV" name="Play video player" time="61.785289">
+<system-out><![CDATA[When user click play........................................................passed
+Then video can be play......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
